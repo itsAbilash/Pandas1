@@ -1,0 +1,7 @@
+import pandas as pd
+
+lst = [['Abilash',2],['Tracy',4]]
+
+df = pd.DataFrame(lst,columns = ['Names','Rank'])
+print(df)
+
